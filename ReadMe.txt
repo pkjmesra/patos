@@ -56,7 +56,7 @@ frame 15 is your load address,
 frame 14 is your main function address
 
 Under thread 2,
-frame 3,4,5,6 is what you’r like to symbolicate
+frame 3,4,5,6 is what you’d like to symbolicate
 
 So you could say:
 
@@ -68,3 +68,20 @@ or
 or
 ./patos -c armv7 -l 0x000094c4 -x /Users/<your username>/Desktop/YourAppName.xcarchive -a 0x006368b9
 
+
+Licensing:
+==========
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
