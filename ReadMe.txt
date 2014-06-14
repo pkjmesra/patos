@@ -1,6 +1,6 @@
 Use this tool to extract the symbol of a known stack address if you know the load address.
 
-cd <directory where the patois tool is kept>
+cd <directory where the patos tool is kept>
 
 ./patos [-c <CPU_ARCH>] [-m <MAIN_FUNCTION_STACK_ADDRESS> OR -l <LOAD_ADDRESS>] -a <TARGET_STACK_ADDRESS> [-x <PATH_TO_XCARCHIVE> OR -d <PATH_TO_DSYM>] [-s <SLIDE (optional)>] [-p <TO OUTPUT ALL DEBUG LOGS pass Y. Pass N otherwise. Default is N>]
 
